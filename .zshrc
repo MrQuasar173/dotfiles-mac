@@ -133,6 +133,9 @@ alias .4='cd ../../../..'
 alias .5='cd ../../../../..'
 # brew
 alias rebrew='brew reinstall'
+alias unbrew='brew uninstall'
+alias brewls='brew list'
+alias brewcask='brew install --cask'
 # git
 alias addall='git add .'
 alias branch='git branch'
