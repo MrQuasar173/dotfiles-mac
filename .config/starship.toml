@@ -36,7 +36,7 @@ $character"""
 [battery]
 full_symbol = "🔋"
 charging_symbol = "⚡️"
-discharging_symbol = "🔻🔋"
+discharging_symbol = "🔋"
 unknown_symbol = "🔋"
 [[battery.display]]
 threshold = 50
@@ -47,6 +47,7 @@ disabled = false
 [vagrant]
 format = "via [⍱ $version](bold white) "
 [memory_usage]
+format = "using $symbol[${ram_pct}]($style) "
 disabled = false
 threshold = 75
 style = "bold dimmed green"
