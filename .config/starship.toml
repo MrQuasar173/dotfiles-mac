@@ -33,6 +33,11 @@ $battery\
 $character"""
 
 
+[battery]
+full_symbol = "🔋"
+charging_symbol = "⚡️"
+discharging_symbol = "🔻🔋"
+unknown_symbol = "🔋"
 [[battery.display]]
 threshold = 50
 style = "bold purple"
@@ -43,7 +48,7 @@ disabled = false
 format = "via [⍱ $version](bold white) "
 [memory_usage]
 disabled = false
-threshold = 50
+threshold = 75
 style = "bold dimmed green"
 [line_break]
 disabled = true
